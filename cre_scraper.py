@@ -27,7 +27,7 @@ from email_template import build_html_email
 # ██  CONFIGURATION  — fill in your credentials here
 # ─────────────────────────────────────────────────────────────────────────────
 
-ANTHROPIC_API_KEY  = os.environ.get("ANTHROPIC_API_KEY",  "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")
+ANTHROPIC_API_KEY  = os.environ.get("ANTHROPIC_API_KEY",  "sk-")
 MODEL              = "claude-opus-4-5"   # swap to "claude-sonnet-4-5" to cut cost ~5x
 
 EMAIL_RECIPIENT    = os.environ.get("EMAIL_TO",           "birchb24@wfu.edu")
