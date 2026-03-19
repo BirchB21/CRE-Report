@@ -30,11 +30,11 @@ from email_template import build_html_email
 ANTHROPIC_API_KEY  = os.environ.get("ANTHROPIC_API_KEY",  "sk-")
 MODEL              = "claude-opus-4-5"   # swap to "claude-sonnet-4-5" to cut cost ~5x
 
-EMAIL_RECIPIENT    = os.environ.get("EMAIL_TO",           "birchb24@wfu.edu")
-EMAIL_SENDER       = os.environ.get("EMAIL_FROM",         "birchb24@wfu.edu")
+EMAIL_RECIPIENT    = os.environ.get("EMAIL_TO",           "b")
+EMAIL_SENDER       = os.environ.get("EMAIL_FROM",         "")
 # Gmail App Password — NOT your normal password
 # Get one: Google Account → Security → 2-Step Verification → App Passwords
-GMAIL_APP_PASSWORD = os.environ.get("GMAIL_APP_PASSWORD", "jbcm qshe cxyn oztm")
+GMAIL_APP_PASSWORD = os.environ.get("GMAIL_APP_PASSWORD", "j")
 
 SEND_TIME_EST      = "06:00"   # 24-hr format, Eastern Time (auto-adjusts for DST)
 OUTPUT_DIR         = "reports"
